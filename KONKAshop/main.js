@@ -10,7 +10,7 @@ require.config({
 	//jquery-cookie模块依赖jquery开发，在这里声明依赖关系
 	shim:{
 		"jquery-cookie": ["jquery"],
-		//声明不适用AMD 规范的模块
+		//声明不适用AMD规范的模块
 		"parabola": {
 			exports: "_"
 		}
